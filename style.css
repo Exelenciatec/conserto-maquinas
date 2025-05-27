@@ -60,3 +60,26 @@ footer {
   color: #777;
   margin-top: 40px;
 }
+
+/* Feedbacks */
+.feedbacks {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.feedbacks blockquote {
+  background: #f1f1f1;
+  border-left: 5px solid #0077cc;
+  padding: 15px 20px;
+  border-radius: 6px;
+  font-style: italic;
+}
+
+.feedbacks footer {
+  margin-top: 10px;
+  text-align: right;
+  font-weight: bold;
+  color: #555;
+}
